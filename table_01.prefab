@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1558480099012009291}
   - component: {fileID: 1253761185200112607}
   - component: {fileID: -8135079783195635211}
+  - component: {fileID: 8946442488592345291}
   m_Layer: 0
   m_Name: table_01
   m_TagString: Untagged
@@ -126,3 +127,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d47df1edcaffcfb40b4b3a932351c458, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8946442488592345291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976894411768050259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94c11816346f844b8b56a86f9fa9b79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Modern Drink Table
+  info: 'This is one of '

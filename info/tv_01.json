@@ -1,0 +1,9 @@
+{
+    "name": "TV",
+    "description": "its ",
+    "materials": [
+        "metal",
+        "matte",
+        "Material.006"
+    ]
+}

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 283729558943006005}
   - component: {fileID: 737717474508517367}
   - component: {fileID: -1798379874950194123}
+  - component: {fileID: 475101482851172271}
   m_Layer: 0
   m_Name: bed_01
   m_TagString: Untagged
@@ -63,8 +64,8 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: fb6c39b4546522a469260c18645b2c0e, type: 2}
-  - {fileID: 2100000, guid: a13324ff6a7183b4f92f4772b4711558, type: 2}
-  - {fileID: 2100000, guid: a13324ff6a7183b4f92f4772b4711558, type: 2}
+  - {fileID: 2100000, guid: 661ed797269740b41818d889e927f8d6, type: 2}
+  - {fileID: 2100000, guid: 0595739c26d639b4599f19e921bea637, type: 2}
   - {fileID: 2100000, guid: 6c066a809b4dc1c40bd27e7e7b008ccf, type: 2}
   - {fileID: 2100000, guid: 988c2d9f73da37048a8e8533e66e53b0, type: 2}
   m_StaticBatchInfo:
@@ -116,3 +117,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d47df1edcaffcfb40b4b3a932351c458, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &475101482851172271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797216591952010464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94c11816346f844b8b56a86f9fa9b79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Fabric Back Bed
+  info: this bed has nothing interesting at all

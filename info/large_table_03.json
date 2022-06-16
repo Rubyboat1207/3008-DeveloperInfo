@@ -1,0 +1,9 @@
+{
+    "name": "Bar Table",
+    "description": "This was originally smaller but the mesh was edited to make it longer.",
+    "materials": [
+        "metal",
+        "wood",
+        "Material.004"
+    ]
+}

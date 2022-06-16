@@ -1,0 +1,8 @@
+{
+    "name": "Circle Drink Table",
+    "description": "This char has 3 legs, wait this is a table... let me redo the description",
+    "materials": [
+        "metal",
+        "wood"
+    ]
+}

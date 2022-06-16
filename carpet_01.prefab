@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7797216588412489199}
   - component: {fileID: 7447396028794602039}
   - component: {fileID: 5201358039332305154}
+  - component: {fileID: 8434539231131128388}
   m_Layer: 0
   m_Name: carpet_01
   m_TagString: Untagged
@@ -62,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -6629797300637803691, guid: 82b11225dc9012a48bb6ee612d7400d6, type: 3}
+  - {fileID: 2100000, guid: edad932a460bb03429034d77c38de270, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -113,3 +114,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8434539231131128388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8589977871508024378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94c11816346f844b8b56a86f9fa9b79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Carpet
+  info: This is the only Object in the game with its own unique texture

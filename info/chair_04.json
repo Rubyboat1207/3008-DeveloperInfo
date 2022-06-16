@@ -1,0 +1,8 @@
+{
+    "name": "Modern Chair",
+    "description": "this chair is meant to go with large_table_06.",
+    "materials": [
+        "fabric_white",
+        "metal"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Fabric Back Bed",
+    "description": "this bed has nothing interesting at all",
+    "materials": [
+        "metal",
+        "fabric_white",
+        "fabric_blue",
+        "fabric",
+        "wood"
+    ]
+}

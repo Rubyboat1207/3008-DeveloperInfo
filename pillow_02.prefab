@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 945995310215398525}
   - component: {fileID: 8018473643419688778}
   - component: {fileID: 8598568063990287289}
+  - component: {fileID: 7401564277002118114}
   m_Layer: 0
   m_Name: pillow_02
   m_TagString: Untagged
@@ -109,3 +110,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d47df1edcaffcfb40b4b3a932351c458, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7401564277002118114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594315812472923560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94c11816346f844b8b56a86f9fa9b79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Rectangle Pillow
+  info: This model was part of a couch, but I only took this pillow cause I thought
+    it looked cool.

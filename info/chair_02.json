@@ -1,0 +1,8 @@
+{
+    "name": "Waiting Room Chair",
+    "description": "this chair has an average number of legs",
+    "materials": [
+        "fabric",
+        "wood"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Glass Modern Table",
+    "description": "you cant",
+    "materials": [
+        "metal",
+        "metal",
+        "wood",
+        "glass"
+    ]
+}

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1306502036023467559}
   - component: {fileID: 6772464030143687266}
   - component: {fileID: -5597237422129920883}
+  - component: {fileID: 888135527656970141}
   m_Layer: 0
   m_Name: pillow_01
   m_TagString: Untagged
@@ -127,3 +128,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d47df1edcaffcfb40b4b3a932351c458, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &888135527656970141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4843096422261508156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94c11816346f844b8b56a86f9fa9b79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Pillow
+  info: This pillow looked so bad in the fabric material, fabric_white was made specifically
+    for this model

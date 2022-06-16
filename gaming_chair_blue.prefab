@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2936863857312699543}
   - component: {fileID: 5598081626349546937}
   - component: {fileID: 1072480443644575206}
+  - component: {fileID: 2726305956312023483}
   m_Layer: 0
   m_Name: gaming_chair_blue
   m_TagString: Untagged
@@ -128,3 +129,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d47df1edcaffcfb40b4b3a932351c458, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2726305956312023483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4228695432943962585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94c11816346f844b8b56a86f9fa9b79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Gaming Chair
+  info: This chair gives you up to 15 exta fps if you removed every other thing in
+    the game except this chair

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8281083075726620362}
   - component: {fileID: 5543448107957261701}
   - component: {fileID: 5018700944927079113}
+  - component: {fileID: 644628936188078302}
   m_Layer: 0
   m_Name: large_table_03
   m_TagString: Untagged
@@ -129,3 +130,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d47df1edcaffcfb40b4b3a932351c458, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &644628936188078302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5176949085161475432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94c11816346f844b8b56a86f9fa9b79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Bar Table
+  info: This was originally smaller but the mesh was edited to make it longer.
