@@ -36,7 +36,7 @@ function GetPrefabs() {
 function CleanFileNames(files) {
     var cleanedFiles = [];
     for (var i = 0; i < files.length; i++) {
-        let name = files[i].replace(/_/g, " ");
+        let name = files[i].replace(/_[0-9][0-9]|.prefab/, "").replace(/_/g, " ");
         cleanedFiles.push(name.split(".")[0]);
     }
     return cleanedFiles;
@@ -54,8 +54,19 @@ function getImageURLs() {
 //The Part you need to care about
 document.addEventListener("DOMContentLoaded", () => {
     let images = getImageURLs();
-    let cleanedFileNames = CleanFileNames(GetPrefabs());
-    for(let i = 0; i < images.length; i++) {
-        document.getElementById("imgs").innerHTML += "<div class=\"img\"><p>" + cleanedFileNames[i] + "</p><img src='" + images[i] + "'><br></div>";
+    let prefabs = GetPrefabs();
+    let cleanedFileNames = CleanFileNames(prefabs);
+
+    let imgContainer = [];
+    for (var i = 0; i < images.length; i++) {
+        imgContainer.push({"image": images[i], "fileNames": cleanedFileNames[i]});
+    }
+    //sort in alphabetical order
+    imgContainer.sort((a, b) => (a.fileNames > b.fileNames) ? 1 : -1);
+
+    console.log(imgContainer)
+
+    for(let i = 0; i < imgContainer.length; i++) {
+        document.getElementById("imgs").innerHTML += "<div class=\"img\"><p class=\"imgtxt\">" + imgContainer[i].fileNames + "</p><p class=\"subtitle\">" + prefabs[i].substring(0, prefabs[i].length - 7) + "</p><img src='" + imgContainer[i].image + "'><br></div>";
     }
 });
