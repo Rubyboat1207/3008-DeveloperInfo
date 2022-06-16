@@ -154,4 +154,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Dining Table
-  info: Please
+  info: This table table was the 3rd added to the game, dispite having 01 in the
+    id
