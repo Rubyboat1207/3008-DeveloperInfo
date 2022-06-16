@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 737717474508517367}
   - component: {fileID: -1798379874950194123}
   - component: {fileID: 475101482851172271}
+  - component: {fileID: 1708121021132825425}
+  - component: {fileID: 1377634086947532190}
   m_Layer: 0
   m_Name: bed_01
   m_TagString: Untagged
@@ -130,4 +132,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Fabric Back Bed
-  info: this bed has nothing interesting at all
+  info: It has almost every material in the game
+--- !u!65 &1708121021132825425
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797216591952010464}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.7, y: 0.51, z: 2.2745588}
+  m_Center: {x: 0, y: 0.07, z: 0.25507474}
+--- !u!65 &1377634086947532190
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797216591952010464}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.7, y: 0.65, z: 0.24}
+  m_Center: {x: 0, y: 0.68, z: -0.78}
