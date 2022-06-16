@@ -11,6 +11,48 @@
                 border-radius: 10px;
                 text-align: center;
                 filter: drop-shadow(10px 10px 4px #0000003c);
+                margin: 0px 25% 0px 25%;
+            }
+            .animateZoom {
+                animation-name: zoom;
+                animation-duration: 0.5s;
+                animation-iteration-count: 1;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: forwards;
+            }
+            @keyframes zoom {
+                from {
+                    padding-bottom: 0px;
+                    transform: scale(1);
+                }
+                to {
+                    padding-bottom: 20px;
+                    margin-bottom: 30px;
+                    margin-top: 30px;
+                    margin-left: 20%;
+                    margin-right: 20%;
+                }
+            }
+            .animateBack {
+                animation-name: zoomBack;
+                animation-duration: 0.5s;
+                animation-iteration-count: 1;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: forwards;
+            }
+            @keyframes zoomBack {
+                from {
+                    padding-bottom: 20px;
+                    margin-bottom: 30px;
+                    margin-top: 30px;
+                    margin-left: 20%;
+                    margin-right: 20%;
+                }
+                to {
+                    padding-bottom: 0px;
+                    margin-bottom: 0px;
+                    margin-top: 0px;
+                }
             }
             .imgtxt {
                 padding-top: 20px;
@@ -18,7 +60,15 @@
                 font-size: 20px;
                 font-weight: 900;
                 margin-bottom: 0px;
-                color: #d1d1d1;
+                color: #d1d1d1 !important;
+            }
+            .hiddentxt {
+                padding-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20px;
+                font-weight: 900;
+                margin-bottom: 0px;
+                color: #38123f !important;
             }
             .subtitle {
                 margin-top: 0px;
@@ -26,13 +76,46 @@
                 font-family: Arial, Helvetica, sans-serif;
                 color: #262626;
             }
-            .container {
-                padding: 10px 25% 0px 25%;
+            .description {
+                font-family: Arial, Helvetica, sans-serif;
+                display: none;
+                color: #271233;
+            }
+            .animateZoom .description {
+                display: block;
+                animation-name: zoomText;
+                animation-duration: 0.5s;
+                animation-iteration-count: 1;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: forwards;
+            }
+            .animateBack .description {
+                animation-name: zoomTextBack;
+                animation-duration: 0.5s;
+                animation-iteration-count: 1;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: forwards;
+            }
+            @keyframes zoomText {
+                from {
+                    font-size: 0;
+                }
+                to {
+                    font-size: 15px;
+                }
+            }
+            @keyframes zoomTextBack {
+                from {
+                    font-size: 15px;
+                }
+                to {
+                    font-size: 0px;
+                }
             }
         </style>
     </head>
     
-    <body>
+    <body onclick="">
         <div id="imgs" class="container">
         </div>
     </body>
