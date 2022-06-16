@@ -3,5 +3,6 @@
     "description": "This is the only Object in the game with its own unique texture",
     "materials": [
         "carpet"
-    ]
+    ],
+    "id": "carpet_01"
 }

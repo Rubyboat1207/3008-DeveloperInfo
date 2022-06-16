@@ -3,5 +3,6 @@
     "description": "This couch probably has candy hidden inside...",
     "materials": [
         "fabric"
-    ]
+    ],
+    "id": "couch_01"
 }

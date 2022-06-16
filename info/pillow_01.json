@@ -3,5 +3,6 @@
     "description": "This pillow looked so bad in the fabric material, fabric_white was made specifically for this model",
     "materials": [
         "fabric_white"
-    ]
+    ],
+    "id": "pillow_01"
 }

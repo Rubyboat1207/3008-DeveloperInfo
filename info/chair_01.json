@@ -4,5 +4,6 @@
     "materials": [
         "fabric",
         "metal"
-    ]
+    ],
+    "id": "chair_01"
 }

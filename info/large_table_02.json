@@ -3,5 +3,6 @@
     "description": "this table seems like a tv stand, and is used as one in some official tiles",
     "materials": [
         "wood"
-    ]
+    ],
+    "id": "large_table_02"
 }
