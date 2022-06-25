@@ -3,8 +3,8 @@
     "description": "This chair gives you up to 15 exta fps if you removed every other thing in the game except this chair",
     "materials": [
         "black skin",
-        "plastic_Blue",
-        "metal"
+        "outline",
+        "Betim - Metal Preto"
     ],
     "id": "gaming_chair_blue"
 }

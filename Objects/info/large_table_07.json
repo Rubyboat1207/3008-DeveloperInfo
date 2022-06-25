@@ -1,0 +1,9 @@
+{
+    "name": "Skoogsta",
+    "description": "A table that looks oddly similar to Skoogsta.",
+    "materials": [
+        "Wood",
+        "Metal"
+    ],
+    "id": "large_table_07"
+}

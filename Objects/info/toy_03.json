@@ -1,0 +1,9 @@
+{
+    "name": "Kiddie Pool",
+    "description": "oth",
+    "materials": [
+        "water",
+        "plastic_Blue"
+    ],
+    "id": "toy_03"
+}
