@@ -2,8 +2,8 @@
     "name": "Standard Office Chair",
     "description": "this chair only has 2 legs, when most chairs have 4",
     "materials": [
-        "fabric",
-        "metal"
+        "Fabric",
+        "Metal"
     ],
     "id": "chair_01"
 }

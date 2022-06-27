@@ -2,11 +2,11 @@
     "name": "Fabric Back Bed",
     "description": "It has almost every material in the game",
     "materials": [
-        "metal",
-        "fabric_white",
-        "fabric_blue",
-        "fabric",
-        "wood"
+        "Metal",
+        "Fabric_white",
+        "Fabric_blue",
+        "Fabric",
+        "Wood"
     ],
     "id": "bed_01"
 }

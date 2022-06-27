@@ -2,10 +2,10 @@
     "name": "Stool",
     "description": "Dispite being just a stool, it has more bars than the bar stool.",
     "materials": [
-        "wood",
-        "wood",
-        "wood",
-        "wood"
+        "Wood",
+        "Wood",
+        "Wood",
+        "Wood"
     ],
     "id": "chair_05"
 }

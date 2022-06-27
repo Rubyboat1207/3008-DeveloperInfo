@@ -2,8 +2,8 @@
     "name": "Outdoor Chair",
     "description": "This chair has an average number of legs, but somehow looks cooler than chair_02",
     "materials": [
-        "wood",
-        "fabric_white"
+        "Wood",
+        "Fabric_white"
     ],
     "id": "chair_06"
 }

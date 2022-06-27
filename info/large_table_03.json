@@ -2,8 +2,8 @@
     "name": "Bar Table",
     "description": "This was originally smaller but the mesh was edited to make it longer.",
     "materials": [
-        "metal",
-        "wood",
+        "Metal",
+        "Wood",
         "Material.004"
     ],
     "id": "large_table_03"

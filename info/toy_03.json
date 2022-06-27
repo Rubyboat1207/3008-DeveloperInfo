@@ -1,9 +1,9 @@
 {
     "name": "Kiddie Pool",
-    "description": "The other developers didnt want me adding this...",
+    "description": "The other developers didn't want me adding this.",
     "materials": [
-        "water",
-        "plastic_Blue"
+        "Water",
+        "Plastic_Blue"
     ],
     "id": "toy_03"
 }

@@ -2,8 +2,8 @@
     "name": "TV",
     "description": "its ",
     "materials": [
-        "metal",
-        "matte",
+        "Metal",
+        "Matte",
         "Material.006"
     ],
     "id": "tv_01"

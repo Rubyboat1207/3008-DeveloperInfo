@@ -2,10 +2,10 @@
     "name": "Wood Back Bed",
     "description": "This bed is very interesting and is a color swap of the other bed",
     "materials": [
-        "metal",
-        "fabric_white",
-        "fabric_blue",
-        "wood"
+        "Metal",
+        "Fabric_white",
+        "Fabric_blue",
+        "Wood"
     ],
-    "id": "bed_02"
+    "id": "Bed_02"
 }

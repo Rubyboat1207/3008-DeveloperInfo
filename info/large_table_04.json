@@ -2,10 +2,10 @@
     "name": "Glass Modern Table",
     "description": "you cant",
     "materials": [
-        "metal",
-        "metal",
-        "wood",
-        "glass"
+        "Metal",
+        "Metal",
+        "Wood",
+        "Glass"
     ],
     "id": "large_table_04"
 }

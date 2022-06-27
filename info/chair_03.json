@@ -2,8 +2,8 @@
     "name": "Tall Chair",
     "description": "This chair has only 1 leg! wow!",
     "materials": [
-        "metal",
-        "wood"
+        "Metal",
+        "Wood"
     ],
     "id": "chair_03"
 }
