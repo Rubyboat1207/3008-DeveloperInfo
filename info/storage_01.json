@@ -1,0 +1,10 @@
+{
+    "name": "Wooden Shelves",
+    "description": "Seems like you could put stuff here, but nope",
+    "materials": [
+        "Metal",
+        "Metal",
+        "Wood"
+    ],
+    "id": "storage_01"
+}

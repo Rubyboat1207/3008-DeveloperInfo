@@ -1,0 +1,10 @@
+{
+    "name": "L' Dresser",
+    "description": "I asked another dev what to call this, hes bad at names",
+    "materials": [
+        "Metal",
+        "Gold",
+        "BlackWood"
+    ],
+    "id": "storage_02"
+}

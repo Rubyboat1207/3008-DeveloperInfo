@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7089969292050028349
+--- !u!1 &1458564466962921149
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,49 +8,50 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7579401137512615303}
-  - component: {fileID: 6809630344332870178}
-  - component: {fileID: 8747219670085301992}
-  - component: {fileID: 1518246372263967654}
-  - component: {fileID: 2687340506852833730}
-  - component: {fileID: -2479023545668628808}
-  - component: {fileID: 7759550147803925137}
+  - component: {fileID: 2267012704850193415}
+  - component: {fileID: 2943620907147174818}
+  - component: {fileID: 1098069994387494760}
+  - component: {fileID: 5519084932967716047}
+  - component: {fileID: 4905180396898475655}
+  - component: {fileID: 9035679071972060017}
+  - component: {fileID: 8938795704224948661}
+  - component: {fileID: 5056557202769618644}
   m_Layer: 0
-  m_Name: tv_01
+  m_Name: storage_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7579401137512615303
+--- !u!4 &2267012704850193415
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7089969292050028349}
+  m_GameObject: {fileID: 1458564466962921149}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.175, z: 0}
+  m_LocalPosition: {x: 2.2652593, y: 0.59246635, z: -1.5942745}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &6809630344332870178
+--- !u!33 &2943620907147174818
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7089969292050028349}
-  m_Mesh: {fileID: 8998060942750548484, guid: abb84179892e3a841a584f53b86cc4d1, type: 3}
---- !u!23 &8747219670085301992
+  m_GameObject: {fileID: 1458564466962921149}
+  m_Mesh: {fileID: -5495902117074765545, guid: ab50df48b6dbe3b4d875dcf4998b9bdb, type: 3}
+--- !u!23 &1098069994387494760
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7089969292050028349}
+  m_GameObject: {fileID: 1458564466962921149}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -64,9 +65,9 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
+  - {fileID: 2100000, guid: 988c2d9f73da37048a8e8533e66e53b0, type: 2}
   - {fileID: 2100000, guid: fb6c39b4546522a469260c18645b2c0e, type: 2}
-  - {fileID: 2100000, guid: ca188dab87190ee46a2146c879b6b02b, type: 2}
-  - {fileID: -2813467912831258332, guid: abb84179892e3a841a584f53b86cc4d1, type: 3}
+  - {fileID: 2100000, guid: fb6c39b4546522a469260c18645b2c0e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -88,59 +89,69 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1518246372263967654
-MeshCollider:
+--- !u!65 &5519084932967716047
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7089969292050028349}
+  m_GameObject: {fileID: 1458564466962921149}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8998060942750548484, guid: abb84179892e3a841a584f53b86cc4d1, type: 3}
---- !u!54 &2687340506852833730
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7089969292050028349}
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &-2479023545668628808
-MonoBehaviour:
+  m_Size: {x: 1.4313481, y: 0.13, z: 1.5887876}
+  m_Center: {x: -0.12746331, y: 0.17, z: 0.14611876}
+--- !u!65 &4905180396898475655
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7089969292050028349}
+  m_GameObject: {fileID: 1458564466962921149}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d47df1edcaffcfb40b4b3a932351c458, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &7759550147803925137
+  serializedVersion: 2
+  m_Size: {x: 1.4313481, y: 0.13, z: 1.5887876}
+  m_Center: {x: -0.12746331, y: 1.04, z: 0.14611876}
+--- !u!65 &9035679071972060017
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458564466962921149}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.4313481, y: 0.13, z: 1.5887876}
+  m_Center: {x: -0.12746331, y: 2.06, z: 0.14611876}
+--- !u!65 &8938795704224948661
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458564466962921149}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.4313481, y: 0.13, z: 1.5887876}
+  m_Center: {x: -0.12746331, y: 3.03, z: 0.14611876}
+--- !u!114 &5056557202769618644
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7089969292050028349}
+  m_GameObject: {fileID: 1458564466962921149}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d94c11816346f844b8b56a86f9fa9b79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: TV
-  info: 'its '
+  Name: Storage
+  info: The staff hate this, so much dust.
