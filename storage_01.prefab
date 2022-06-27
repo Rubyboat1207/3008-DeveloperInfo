@@ -15,7 +15,10 @@ GameObject:
   - component: {fileID: 4905180396898475655}
   - component: {fileID: 9035679071972060017}
   - component: {fileID: 8938795704224948661}
+<<<<<<< HEAD
   - component: {fileID: 5056557202769618644}
+=======
+>>>>>>> 9b534cf812dad9a1168f93044aaeeac129a3e40c
   m_Layer: 0
   m_Name: storage_01
   m_TagString: Untagged
@@ -141,6 +144,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.4313481, y: 0.13, z: 1.5887876}
   m_Center: {x: -0.12746331, y: 3.03, z: 0.14611876}
+<<<<<<< HEAD
 --- !u!114 &5056557202769618644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,3 +159,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Storage
   info: The staff hate this, so much dust.
+=======
+>>>>>>> 9b534cf812dad9a1168f93044aaeeac129a3e40c
