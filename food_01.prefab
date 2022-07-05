@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3496273236848835199}
   - component: {fileID: 3240315641141654462}
   m_Layer: 0
-  m_Name: popcorn
+  m_Name: food_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
