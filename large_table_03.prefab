@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2547559289805019763}
   - component: {fileID: 4898597347240734811}
   m_Layer: 0
-  m_Name: FoodSpawner (1)
+  m_Name: Center
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43,6 +43,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6647b86c1c8772e4097fc73438c9bf81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  averageFoodStats:
+    regen: 3
+    stamina: 3
+    StandardDeviation: 1
+    generateProbabilty: 33
 --- !u!1 &4345524158927728981
 GameObject:
   m_ObjectHideFlags: 0
@@ -54,7 +59,7 @@ GameObject:
   - component: {fileID: 2390192157099369319}
   - component: {fileID: 3129349972686056025}
   m_Layer: 0
-  m_Name: FoodSpawner (2)
+  m_Name: -X
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -86,6 +91,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6647b86c1c8772e4097fc73438c9bf81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  averageFoodStats:
+    regen: 3
+    stamina: 3
+    StandardDeviation: 1
+    generateProbabilty: 33
 --- !u!1 &5176949085161475432
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,6 +243,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Bar Table
   info: This was originally smaller but the mesh was edited to make it longer.
+  canSpawnFood: 1
 --- !u!1 &5867623769916809370
 GameObject:
   m_ObjectHideFlags: 0
@@ -244,7 +255,7 @@ GameObject:
   - component: {fileID: 6011948337767139394}
   - component: {fileID: 2750265394588881121}
   m_Layer: 0
-  m_Name: FoodSpawner
+  m_Name: +X
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -276,3 +287,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6647b86c1c8772e4097fc73438c9bf81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  averageFoodStats:
+    regen: 3
+    stamina: 3
+    StandardDeviation: 1
+    generateProbabilty: 33

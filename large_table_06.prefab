@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5928108990895570305}
   - component: {fileID: 378815337583543879}
   m_Layer: 0
-  m_Name: FoodSpawner (2)
+  m_Name: -X
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43,6 +43,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6647b86c1c8772e4097fc73438c9bf81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  averageFoodStats:
+    regen: 3
+    stamina: 2
+    StandardDeviation: 1
+    generateProbabilty: 50
 --- !u!1 &830088296543628162
 GameObject:
   m_ObjectHideFlags: 0
@@ -54,7 +59,7 @@ GameObject:
   - component: {fileID: 2759712858166917429}
   - component: {fileID: 3655983563993999680}
   m_Layer: 0
-  m_Name: FoodSpawner
+  m_Name: +X
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -86,6 +91,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6647b86c1c8772e4097fc73438c9bf81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  averageFoodStats:
+    regen: 3
+    stamina: 2
+    StandardDeviation: 1
+    generateProbabilty: 50
 --- !u!1 &5854801629945251654
 GameObject:
   m_ObjectHideFlags: 0
@@ -97,7 +107,7 @@ GameObject:
   - component: {fileID: 4205379193515032587}
   - component: {fileID: 4405192214971608047}
   m_Layer: 0
-  m_Name: FoodSpawner (1)
+  m_Name: Center
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -129,6 +139,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6647b86c1c8772e4097fc73438c9bf81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  averageFoodStats:
+    regen: 3
+    stamina: 2
+    StandardDeviation: 1
+    generateProbabilty: 50
 --- !u!1 &7020463933736877205
 GameObject:
   m_ObjectHideFlags: 0
@@ -273,3 +288,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Modern Table
   info: this table is meant to go with chair_04.
+  canSpawnFood: 0

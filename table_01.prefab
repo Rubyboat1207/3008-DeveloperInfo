@@ -142,6 +142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Modern Drink Table
   info: 'This is one of '
+  canSpawnFood: 0
 --- !u!1 &7303032226812758348
 GameObject:
   m_ObjectHideFlags: 0
@@ -185,3 +186,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6647b86c1c8772e4097fc73438c9bf81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  averageFoodStats:
+    regen: 3
+    stamina: 10
+    StandardDeviation: 2
+    generateProbabilty: 50

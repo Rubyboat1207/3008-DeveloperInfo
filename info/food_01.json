@@ -1,0 +1,11 @@
+{
+    "name": "Popcorn",
+    "description": "The bottom is literally soaking because of how much butter you filled it up with at the theatre",
+    "materials": [
+        "white walter",
+        "label",
+        "popcorn"
+    ],
+    "id": "food_01",
+    "canSpawnFood": false
+}

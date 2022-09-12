@@ -158,6 +158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Dining Table
   info: this cha
+  canSpawnFood: 1
 --- !u!1 &5621158772855622069
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,7 +170,7 @@ GameObject:
   - component: {fileID: 6642020366663636025}
   - component: {fileID: 9028315085055428161}
   m_Layer: 0
-  m_Name: FoodSpawner (1)
+  m_Name: Center
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -201,6 +202,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6647b86c1c8772e4097fc73438c9bf81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  averageFoodStats:
+    regen: 3
+    stamina: 10
+    StandardDeviation: 2
+    generateProbabilty: 25
 --- !u!1 &5981811572544721005
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,7 +218,7 @@ GameObject:
   - component: {fileID: 6818684763158038667}
   - component: {fileID: 713210659438044729}
   m_Layer: 0
-  m_Name: FoodSpawner
+  m_Name: +X
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -244,6 +250,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6647b86c1c8772e4097fc73438c9bf81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  averageFoodStats:
+    regen: 3
+    stamina: 10
+    StandardDeviation: 2
+    generateProbabilty: 25
 --- !u!1 &6140414249156045682
 GameObject:
   m_ObjectHideFlags: 0
@@ -255,7 +266,7 @@ GameObject:
   - component: {fileID: 401836345713673203}
   - component: {fileID: 7552553770226221872}
   m_Layer: 0
-  m_Name: FoodSpawner (2)
+  m_Name: -X
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -287,3 +298,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6647b86c1c8772e4097fc73438c9bf81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  averageFoodStats:
+    regen: 3
+    stamina: 10
+    StandardDeviation: 2
+    generateProbabilty: 25

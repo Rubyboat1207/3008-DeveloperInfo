@@ -144,6 +144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Circle Drink Table
   info: This char has 3 legs, wait this is a table... let me redo the description
+  canSpawnFood: 0
 --- !u!1 &6097508705050404607
 GameObject:
   m_ObjectHideFlags: 0
@@ -187,3 +188,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6647b86c1c8772e4097fc73438c9bf81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  averageFoodStats:
+    regen: 5
+    stamina: 10
+    StandardDeviation: 2
+    generateProbabilty: 75
